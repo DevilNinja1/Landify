@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    height: 866px;
+    width: 1440px;
+}
+.box-box1{
+    height:70px;
+    /* width: 100vh; */
+    padding:16px;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav{
+    display:inline;
+
+}
+header nav ul{
+    display:inline;
+
+}
+header nav ul li {
+    display:inline;
+}
+li{
+    display: inline;
+}
+.box-box2{
+    background-image: url(/Landify/img/Background\ Header.svg);
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1 div h1{
+    /* display: inline; */
+
+    height: 196px;
+    width: 730px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+
+
+    font-family: 'Manrope', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.container1 div button {
+    height: 62px;
+    width: 196px;
+    left: 0px;
+    top: 228px;
+    border-radius: 8px;
+
+    background: #8C30F5;
+
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.box2{
+    height: 142px;
+    width: 1440px;
+    padding: 16px 165px;
+}
+/* 
+.container2 div{
+    height: 60px;
+    width: 891px;
+
+    padding: 16px, 0px, 16px, 0px;
+
+} */
+.container2 div .logo-Airbnb{
+    margin-right: 64px;
+}
+.container2 div .logo-HubSpot{
+    margin-right: 64px;
+}
+.container2 div .logo-Google{
+    margin-right: 64px;
+}
+.container2 div .logo-Microsoft{
+    margin-right: 64px;
+}
+.container2 div .logo-Walmart{
+    margin-right: 64px;
+}
+
+.box3{
+    height: 672px;
+    width: 1440px;
+
+    padding: 64px 165px;
+
+}
+.Main-Head{
+    height: 136px;
+    width: 540px;
+    position: relative;
+    left: 285px;
+    border-radius: 0px;
+
+}.container3 div h2{
+    font-family: 'Manrope', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.container3 .Main-Head p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.container3 .items{
+    display: flex;
+}
+.container3 .items h5{
+    height: 32px;
+    width: 350px;
+/* left: 0px;
+top: 0px;
+border-radius: nullpx; */
+
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.container3 .items p{
+    height: 52px;
+    width: 350px;
+    left: 0px;
+    top: 40px;
+    border-radius: nullpx;
+
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.groups.group1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.container3 .item1 {
+    height: 148px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: min-content;
+}
+.container3 .item2{
+    height: 148px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: min-content;
+}
+.container3 .item3 {
+    height: 148px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: min-content;
+}
+.groups.group2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.container3 .item4 {
+    height: 148px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: min-content;
+}
+.container3 .item5 {
+    height: 148px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: min-content;
+}
+.container3 .item6 {
+    height: 148px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: min-content;
+}
+.box4{
+    height: 896px;
+    width: 1440px;
+    /* left: 0px;
+    top: 1680px;
+    border-radius: 0px; */
+
+    background: #D5FAFC;
+
+}
+.container4 .quote h2{
+    height: 128px;
+    width: 445px;
+
+
+    font-family: 'Manrope', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.container4 .quote p{
+    height: 32px;
+    width: 445px;
+    left: 0px;
+    top: 136px;
+    border-radius: nullpx;
+
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.cards-card1{
+    height: 436px;
+    width: 350px;
+    position: relative;
+    left: 355px;
+    top: 312px;
+    border-radius: 8px;
+    padding: 32px;
+
+    background: #FFFFFF;
+
+}
+.cards-card2{
+    height: 340px;
+    width: 445px;
+    position: relative;
+    left: 735px;
+    top: -350px;
+    border-radius: 8px;
+    padding: 32px;
+
+    background: #FFFFFF;
+
+}
+.cards-card3{
+    height: 276px;
+    width: 350px;
+    position: relative;
+    left: 735px;
+    top: -315px;
+    border-radius: 8px;
+    padding: 32px;
+
+    background: #FFFFFF;
+
+}
