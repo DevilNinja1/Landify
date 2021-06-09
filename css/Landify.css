@@ -83,14 +83,15 @@ li{
     width: 1440px;
     padding: 16px 165px;
 }
-/* 
+
 .container2 div{
-    height: 60px;
-    width: 891px;
-
-    padding: 16px, 0px, 16px, 0px;
-
-} */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .container2 div .logo-Airbnb{
     margin-right: 64px;
 }
@@ -850,7 +851,6 @@ footer{
     height: 168px;
     width: 475px;
     position: relative;
-    left: 100px;
     top: 56px;
     border-radius: 0px;
 
@@ -858,6 +858,10 @@ footer{
 .inside-left{
     display: flex;
     flex-direction: column;
+}
+.inside-left div {
+    position: relative;
+    top: 18px;
 }
 .Dwn-Now{
     font-family: 'Manrope', sans-serif;
@@ -874,6 +878,10 @@ footer{
 
     margin-right: 10px;
     /* margin-top: 24px; */
+}
+.container9 .left .inside-left nav ul{
+    position: relative;
+    top: 20px;
 }
 .container9 .left .inside-left nav ul li{
     height: 26px;
@@ -905,10 +913,23 @@ footer{
 
     color: #D9DBE1;
 
+    position: relative;
+    top: 30px;
 }
 footer .right{
     color: #D9DBE1;
 
     display:flex;
     flex-direction: column;
+
+    position: relative;
+    top: 20px;
+}
+img.Footer-Google_Badge {
+    position: relative;
+    top: 20px;
+}
+img.Footer-Apple_Badge {
+    position: relative;
+    top: 40px;
 }
