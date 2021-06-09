@@ -33,6 +33,9 @@ li{
 }
 .box-box2{
     background-image: url(/Landify/img/Background\ Header.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container1{
     display: flex;
@@ -932,7 +935,75 @@ img.Footer-Apple_Badge {
     top: 40px;
 }
 @media (min-width: 1441px){
-    
+  .box1{
+      width: auto;
+  }
+  .box2{
+      width: auto;
+
+  }
+  .box3{
+      width: auto;
+  }
+  .container3 {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+  .Main-Head{
+      width: auto;
+      left: 0px;
+  }
+  .groups.group2{
+    justify-content: space-evenly;
+  }
+  .box4{
+      width: auto;
+  }
+  .box5{
+      width: auto;
+  }
+  .container5{
+    justify-content: space-evenly;
+  }
+  .box6{
+      width: auto;
+  }
+  .container6 {
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    .box7{
+        width: auto;
+    }
+    .container7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container7 h3{
+        position: relative;
+        left: -280px;
+    }
+    .container7 p{
+        left: 290px;
+    }
+    .box8{
+        width: auto;
+    }
+    .container8{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    footer{
+        width: auto;
+    }
+    .container9 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 }
 @media (min-width: 1150px) and (max-width:1440px){
 

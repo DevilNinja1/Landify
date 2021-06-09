@@ -33,6 +33,9 @@ li{
 }
 .box-box2{
     background-image: url(/Landify/img/Background\ Header.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container1{
     display: flex;
@@ -932,7 +935,7 @@ img.Footer-Apple_Badge {
     top: 40px;
 }
 @media (min-width: 1441px){
-    
+
 }
 @media (min-width: 1150px) and (max-width:1440px){
 
