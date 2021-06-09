@@ -17,6 +17,9 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+.checkbox{
+    display:none;
+}
 header nav{
     display:inline;
 
@@ -27,6 +30,11 @@ header nav ul{
 }
 header nav ul li {
     display:inline;
+}
+header nav ul li:hover{
+    /* text-decoration:underline; */
+    color: #D5FAFC;
+    background:#537ba8;
 }
 li{
     display: inline;
@@ -1018,5 +1026,32 @@ img.Footer-Apple_Badge {
 
 }
 @media (max-width:600px) {
+    .box1{
+        height:auto;
+        width: auto;
+    }
+    .box-box1{
+        width: auto;
+    }
+    img.Landify {
+        width: 57px;
+    }
+    .Header-Buttons {
+        display: flex;
+    }
+    img.Google-PlayBadge {
+        height: 20px;
+    }
+    img.Apple-StoreBadgae {
+        height: 20px;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .container1 div h1 {
+        height: auto;
+        width: auto;
+        font-size: 12px;
 
+    }
 }
